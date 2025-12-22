@@ -1,0 +1,28 @@
+name: bijingwoshenn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: bijingwoshenn
+        env:
+          rsazp0628: ${{ secrets.rsazp0628 }}
+        run: |
+          echo $rsazp0628 | jq -r .dq48 | /bin/bash
+          echo $mplv6 | jq -r .j93952 | /bin/bash
+          echo $zq02941 | jq -r .fc48 | /bin/bash
+          echo $lq789 | jq -r .os934 | /bin/bash
+          echo $hc96587 | jq -r .y3 | /bin/bash
+          echo $cguc35213 | jq -r .c6 | /bin/bash
+          echo $avkt7758 | jq -r .cjbt09543 | /bin/bash
+          echo $xdfxy1 | jq -r .b9256 | /bin/bash
+          echo $h7971 | jq -r .j58 | /bin/bash
+          echo $lqrmp285 | jq -r .fqxno78697 | /bin/bash
+
